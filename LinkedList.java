@@ -1,26 +1,25 @@
-class LinkedList{
-	
-Node head;
+public class LinkedList {
+    private Node head;
+    private Node tail;
+    private int length;
 
-	class Node{
-	int data;
-	Node next;
-	
+    public LinkedList(int data) {
+        Node newNode = new Node(data);
+    }
 
-	public Node(int x){
-		this.data = x;
-		this.next = null;
-	}
-}
+    class Node{
+        int data;
+        Node next;
 
-public Node insertNode(int data){
+        Node(int data) {
+            this.data = data;
+        }
+    }
 
-	//Call constructor for a new Node
-	Node newNode = new Node(data);
+    //Methods for LinkedList operations
 
-
-	
-
-	return newNode;
-}
+    //Append
+    public void appendNode(int data) {
+        
+    }
 }
