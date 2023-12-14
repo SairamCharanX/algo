@@ -20,6 +20,8 @@ public class LinkedList {
 
     //Append
     public void appendNode(int data) {
-        
+        if (head == null || tail == null || length == 0){
+            
+        }
     }
 }
